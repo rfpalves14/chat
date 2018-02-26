@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <script src="js/jquery.js"></script>
+  <script src="js/underscore.js"></script>
+  <script src="js/pushstream.js"></script>
+  <script src="js/moment-with-locales.min.js"></script>
+  <script src="js/mootools-1.6.0.js"></script>
+  <script src="js/chat.js"></script>
+
+  <style>
+    body {
+      padding: 5px;
+    }
+
+    #messages {
+      width: 100%;
+      height: 600px;
+      background-color: #FAFAFA;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    #messages p {
+      margin: 0px;
+    }
+
+    #send-message {
+      width: 100%;
+      background-color: #FAFAFA;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+
+    #message {
+      margin: 15px 30px;
+      width: 60%;
+    }
+  </style>
+
+  <title>Chat with NginX</title>
+</head>
+<body>
+
+  <div id="messages"></div>
+  <br clear="all">
+  <div id="send-message">
+    <input type="text" id="message" />
+    <button type="button" id="btn-send">Send</button>
+  </div>
+
+</body>
+</html>
