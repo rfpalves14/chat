@@ -1,0 +1,29 @@
+body {
+  padding: 5px;
+}
+
+#messages {
+  width: 100%;
+  height: 600px;
+  background-color: #FAFAFA;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  overflow: scroll;
+}
+
+#messages p {
+  margin: 0px;
+}
+
+#send-message {
+  width: 100%;
+  background-color: #FAFAFA;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#message {
+  margin: 15px 30px;
+  width: 60%;
+}
